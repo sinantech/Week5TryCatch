@@ -7,6 +7,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Array İndex");
         data = input.nextInt();
+        array(array,data);
     }
     public static void array (int[] array,int data) {
         try {
